@@ -30,6 +30,8 @@ ul{
     gap: 53px;
 }
 .logo{
+    font-family: 'Miltonian Tattoo';
+    font-style: normal;
     font-weight: 400;
     font-size: 128px;
     color: #FFFFFF;
@@ -47,12 +49,16 @@ ul{
     text-shadow: 0;
 }
 .navigation{
+    font-family: 'Gentium Book Plus';
+    font-style: normal;
     font-weight: 700;
     font-size: 32px;
     color: #FFFFFF;
     gap: 53px;
 }
 .section_text{
+    font-family: 'Gentium Book Plus';
+    font-style: normal;
     margin-top: 327px;
     font-weight: 700;
     font-size: 40px;
@@ -63,11 +69,13 @@ ul{
 /* !Section 2 */
 .section2{
     width: 100%;
-    height: 610px;
+    height: 100%;
     background-color: #2A2626;
     padding: 96px 125px;
 }
-.section2_title{
+.title{
+    font-family: 'Gentium Book Plus';
+    font-style: normal;
     font-style: normal;
     font-weight: 400;
     font-size: 48px;
@@ -91,5 +99,28 @@ ul{
 }
 /* !Article */
 article{
-    height: 610px;
+    width: 100%;
+    height: 100%;
+    background: #0B0A0A;
+    padding: 96px 125px;
+}
+.article_div{
+    margin-top: 42px;
+    display: flex;
+    gap: 60px;
+}
+.article_div2{
+    width: 565px;
+    height: 320px;
+    background: #8E8B8B;
+    padding: 64px 109px;
+}
+.article_div_text{
+    font-family: 'Gentium Book Plus';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: justify;
+    color: #FFFFFF;
 }
